@@ -1,0 +1,9 @@
+[package]
+name = "MinkaIPC"
+version = "0.1.0"
+edition = "2021"
+description = "Non-blocking NDJSON client for the ShojiWM IPC socket (part of MinkaDE)"
+
+[dependencies]
+calloop = "0.14"
+serde_json = "1"
