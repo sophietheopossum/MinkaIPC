@@ -4,6 +4,11 @@ version = "0.1.0"
 edition = "2021"
 description = "Non-blocking NDJSON client for the ShojiWM IPC socket (part of MinkaDE)"
 
+# Rust identifiers must be snake_case, so the lib target gets the idiomatic
+# name while the package keeps the MinkaDE naming scheme.
+[lib]
+name = "minka_ipc"
+
 [dependencies]
 calloop = "0.14"
 serde_json = "1"
