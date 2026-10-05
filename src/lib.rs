@@ -1,7 +1,7 @@
 //! Non-blocking NDJSON client for the ShojiWM IPC socket.
 //!
 //! Wire format 
-//! (see `ShojiWM/packages/config/src/index.tsx`
+//! (see `ShojiWM/packages/config/src/minka/workspace-ipc.ts` in
 //! the live config; `~/.config/shojiwm` is a stale installed
 //! copy the session overrides via `SHOJI_CONFIG`):
 //!   request    {"id": n, "method": "...", "params": {...}}
